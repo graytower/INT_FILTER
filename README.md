@@ -109,7 +109,9 @@ Store global variable of the prediction window size.
 
 # How to run INT-filter
 If you installed the dependencies and configured the database successfully, then you can run the system with commands below.
+
 But it should be noted that you need to modify the address in line 17 of topology/clos.py to your own address.
+
 In addition, you need to pay attention to the redis.sock location in all codes. For example, line 169-172 of topology/clos.py.
 
 ## Base
